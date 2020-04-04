@@ -57,7 +57,7 @@ h1 {
 color: yellow;
 }
 
-button {
+.submit-button {
 font-family: 'Cookie', cursive;
 font-size: 20px;
 min-width: 40px;
@@ -101,13 +101,28 @@ border-color: yellow;
     color:black;
     font-family: 'Cookie', cursive;
     font-size:25px;
-
 }
 
 #restaurant-results{
     color: yellow;
+
 }
 
 .font-weight-bold{
     color: yellow;
 }
+
+.search-box{
+    margin-top:2px;
+    border-style: solid;
+    border-color: darkgreen;
+    width:400px;
+   margin-right:100px;
+
+
+
+
+
+
+
+

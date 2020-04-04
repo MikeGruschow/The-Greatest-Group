@@ -54,9 +54,9 @@ function restaurantSearch(searchVal) {
             for (var i = 0; i < resultsArr.length; i++) {
                 //new col for each card
                 //console.log(resultsArr[i])
-                var col = $("<div>").attr("class", "col-5 mx-auto text-align-center");
+                var col = $("<div>").attr("class", "col-7 mx-auto text-align-center");
                 //new card for each restaurant
-                var card = $("<div>").attr("class", "card mx-auto my-4 p-3");
+                var card = $("<div>").attr("class", "card mx-auto my-5 p-3");
 
                 //restaurant img
                 var restaurantImage = $("<img>").attr("src", resultsArr[i].restaurant.photos[0].photo.url);	
